@@ -1,0 +1,38 @@
+
+@baseUrl = https://dev.test/api/tests
+@cType = application/json
+@apikey = djambred
+###
+GET {{baseUrl}}
+Content-Type: {{cType}}
+X-API-KEY:  {{apikey}}
+###
+GET {{baseUrl}}/1
+Content-Type: {{cType}}
+X-API-KEY:  {{apikey}}
+###
+POST {{baseUrl}}
+Content-Type: {{cType}}
+Accept: {{cType}}
+X-API-KEY:  {{apikey}}
+
+{
+  "name": "Test Name",
+  "description": "Test Description"
+}
+
+###
+PUT {{baseUrl}}/2
+Content-Type: {{cType}}
+Accept: {{cType}}
+X-API-KEY:  {{apikey}}
+{
+  "name": "Updated Test Name",
+  "description": "Updated Test Description"
+}
+
+###
+DELETE {{baseUrl}}/2
+Content-Type: {{cType}}
+Accept: {{cType}}
+X-API-KEY:  {{apikey}}
