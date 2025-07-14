@@ -4,7 +4,7 @@
               <div class="col-lg-4 col-md-6">
                   <div class="service-item">
                       <div class="icon">
-                          <img src="assets/images/service-01.png" alt="online degrees">
+                          <img src="{{ asset ('front/assets/images/service-01.png')}}" alt="online degrees">
                       </div>
                       <div class="main-content">
                           <h4>Online Degrees</h4>
@@ -18,7 +18,7 @@
               <div class="col-lg-4 col-md-6">
                   <div class="service-item">
                       <div class="icon">
-                          <img src="assets/images/service-02.png" alt="short courses">
+                          <img src="{{ asset ('front/assets/images/service-02.png')}}" alt="short courses">
                       </div>
                       <div class="main-content">
                           <h4>Short Courses</h4>
@@ -32,7 +32,7 @@
               <div class="col-lg-4 col-md-6">
                   <div class="service-item">
                       <div class="icon">
-                          <img src="assets/images/service-03.png" alt="web experts">
+                          <img src="{{ asset ('front/assets/images/service-03.png')}}" alt="web experts">
                       </div>
                       <div class="main-content">
                           <h4>Web Experts</h4>
