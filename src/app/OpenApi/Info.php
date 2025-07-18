@@ -6,7 +6,7 @@ namespace App\OpenApi;
  * @OA\Info(
  *     title="My API",
  *     version="1.0.0",
- *     description="API konyol anjg gua uda cape pls lah",
+ *     description="This Is API Documentation for My Application",
  *     termsOfService="https://dev.test/terms",
  *     @OA\Contact(
  *         name="API Support",
@@ -27,7 +27,7 @@ namespace App\OpenApi;
  *     securityScheme="ApiKeyAuth",
  *     type="apiKey",
  *     in="header",
- *     name="X-API-KEY"
+ *     name="isi djambred pls"
  * )
  */
 class Info {}

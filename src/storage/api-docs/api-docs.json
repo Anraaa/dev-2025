@@ -2,7 +2,7 @@
     "openapi": "3.0.0",
     "info": {
         "title": "My API",
-        "description": "API konyol anjg gua uda cape pls lah",
+        "description": "This Is API Documentation for My Application",
         "termsOfService": "https://dev.test/terms",
         "contact": {
             "name": "API Support",
@@ -456,7 +456,7 @@
         "securitySchemes": {
             "ApiKeyAuth": {
                 "type": "apiKey",
-                "name": "X-API-KEY",
+                "name": "isi djambred pls",
                 "in": "header"
             }
         }
